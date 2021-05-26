@@ -2,6 +2,7 @@
 
 import re
 import os
+import os.path
 import glob
 import pickle
 import platform
@@ -21,6 +22,7 @@ import ConfigParser
 # test properties
 #
 
+# create class TestOptions:
 class TestOptions:
     testBuildFlags = []
     testRoot = os.path.dirname(os.path.abspath(__file__))
